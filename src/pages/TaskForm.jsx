@@ -123,7 +123,7 @@ export default function TaskForm() {
                                 />
                             </div>
 
-                            <div className="space-y-2">
+                            {/* <div className="space-y-2">
                                 <label htmlFor="status" className="text-sm font-semibold text-gray-700 dark:text-gray-300">
                                     Status
                                 </label>
@@ -137,7 +137,7 @@ export default function TaskForm() {
                                     <option value="pending">Pending</option>
                                     <option value="completed">Completed</option>
                                 </select>
-                            </div>
+                            </div> */}
 
                             <div className="flex gap-3 pt-4">
                                 <Button
